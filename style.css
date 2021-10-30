@@ -1,13 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
+*{margin: 0;
+padding: 0;
+    overflow: none;
 }
 /* Section-1 */
 .section-1{
     background-image: url(image-hero.jpg);
-    padding-top: 300px;
-    padding-bottom: 200px;
-    margin-bottom: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
+    padding-bottom: 600px;
+}
+
+.navcontainer{
+    display: flex;
+    color: white;
+    font-weight:bolder;
+    justify-content: space-between;
+    
+}
+
+.loop{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.nav{
+    position: relative;
+    top: 50px;
+    right: 100px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px;
+
 }
