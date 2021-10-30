@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Section-1 */
+.section-1{
+    background-image: url(image-hero.jpg);
+    padding-top: 300px;
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
