@@ -172,3 +172,11 @@ nav {
   padding-top: 40px;
   padding-right: 100px;
 }
+
+/* media query */
+
+@media(max-width:425){
+  
+}
+
+
