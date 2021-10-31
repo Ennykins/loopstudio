@@ -8,7 +8,7 @@
 .section-1 {
   background-image: url(image-hero.jpg);
   background-size: 100%;
-  padding-bottom: 700px;
+  padding-bottom: 600px;
   background-repeat: no-repeat;
 }
 
@@ -44,7 +44,7 @@
   color: white;
   width: 500px;
   left: 200px;
-  top: 350px;
+  top: 250px;
   padding: 20px 30px 20px 30px;
   border: 3px solid white;
   font-size: 40px;
@@ -56,75 +56,57 @@
   background-color: white;
 }
 
-.leader {
+.sec-2{
   display: flex;
-  background-color: black;
+}
+.border{
+  position:absolute;
+  background-color: white;
+  color: black;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 400px;
+  margin-top: 250px;
+  margin-left: 820px;
+  border: 5px solid whitesmoke;
 }
 
-.leader-2 h2 {
-  color: white;
+.border p{
+  width: 420px;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+.border h2{
+  width:400px;
   font-weight: lighter;
   font-size: 40px;
-  width: 400px;
+  padding-top: 50px;
 }
 
-/* .vr{
-    display: flex;
+.smile{
+  margin-left: 200px;
+  margin-top:150px ;
 }
-
-.vr img{
-    padding: 200px;
-}
-
-.leader{
-    
-    position: absolute;
-    color: white;
-    border: 1px solid white;
-    /* width: 200px; */
-/* padding-left: 730px;
-    padding-top: 450px;
-    background-color: ;
-}
-
-.leader h2{
-    position: relative;
-    color: black; */
-/* width: 400px; */
-/* left: 150px;
-    font-weight: lighter;
-    font-size: 40px;
-}
-.leader p{
-    line-height: 30px;
-    /* width: 400px; */
-/* padding-left: 150px;
-    color: black;
-    font-weight: lighter;
-   
-} */
 
 /* Section-3 */
 .section-3 {
   margin-top: 150px;
 }
 
-.section-3 h3{
-    font-family: "Roboto", sans-serif;
-    font-size: 30px;
-    letter-spacing: 5px;
+.section-3 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  letter-spacing: 5px;
 }
 
-.section-3 button{
-    font-family: "Roboto", sans-serif;
-    font-size: 10px;
-    letter-spacing: 5px;
-    font-weight: bolder;
-    margin-right: 270px;
-    cursor: pointer;
+.section-3 button {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  margin-right: 270px;
+  cursor: pointer;
 }
-
-
 
 nav {
   position: relative;
@@ -140,8 +122,9 @@ nav {
 
 .earth h2 {
   position: relative;
-  bottom: 60px;
-  color: white;
+  bottom: 80px;
+  padding-left: 50px;
+  color:rgb(255, 249, 249);
   width: 30px;
 }
 .image1 {
@@ -159,26 +142,33 @@ nav {
 
 /* footer */
 
-.footer{
-    background-color: rgb(26, 24, 24);
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 50px;
+.footer {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
-.socials{
-    display: flex;
-    justify-content: space-between;
+.socials {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
 }
-.socials h4{
 
-margin-top: 5px;
- padding-left: 200px;
+.navv a {
+  color: white;
+  text-decoration: none;
   font-size: 20px;
-  letter-spacing: 4px;
+  padding-right:20px;
+  line-height: 50px;
+  font-weight: lighter;
 }
 
-.copyright{
-    display: flex;
-    justify-content: space-between;
+.navv h4{
+  font-size: 20px;
+}
+
+.copyright p{
+  padding-top: 40px;
+  padding-right: 100px;
 }
