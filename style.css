@@ -13,13 +13,15 @@
 }
 
 .navcontainer {
-  display: flex;
+  /* display: flex; */
   color: white;
   font-weight: bolder;
   justify-content: space-between;
 }
 
 .loop {
+  display: flex;
+  justify-content: space-between;
   margin-top: 50px;
   left: 100px;
   font-size: 30px;
@@ -172,6 +174,7 @@ nav {
   padding-top: 40px;
   padding-right: 100px;
 }
+
 
 /* media query */
 
